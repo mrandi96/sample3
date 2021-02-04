@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Sample 3</string>
+    <string name="msg_token_fmt">token</string>
+</resources>

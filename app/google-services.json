@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "320055873501",
+    "firebase_url": "https://push-notif-tritama-default-rtdb.firebaseio.com",
+    "project_id": "push-notif-tritama",
+    "storage_bucket": "push-notif-tritama.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:320055873501:android:d25cea53b997c1b5f53034",
+        "android_client_info": {
+          "package_name": "org.waliatro.sample3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "320055873501-gdtcrs39tjqc1fi1nf2s5eih7b2nh2g4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5AHyt187bp3O0D4Px8Bcecg4Jqliji54"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "320055873501-gdtcrs39tjqc1fi1nf2s5eih7b2nh2g4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

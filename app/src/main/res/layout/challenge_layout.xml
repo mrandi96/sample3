@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/grey_sea" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/alpha_black" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/gray"
+            android:padding="5dp"
+            android:text="12:36 Leaving Austin to Los Angeles"
+            android:textColor="@color/white"
+            android:textSize="23sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/gray"
+            android:textColor="@color/white" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:backgroundTint="@color/red"
+            android:text="Book"
+            android:textSize="21sp" />
+
+        <RelativeLayout
+            android:paddingVertical="30dp"
+            android:background="@color/DarkGreen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/upperRow"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="50dp"
+                android:layout_alignParentTop="true"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_height="100dp"
+                    android:layout_width="100dp"
+                    android:src="@drawable/up_arrow" />
+                <TextView
+                    android:text="Northbound\n50min"
+                    android:textSize="17sp"
+                    android:textColor="@color/white"
+                    android:lineSpacingMultiplier="1.1"
+                    android:gravity="center"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp" />
+                <ImageView
+                    android:layout_height="100dp"
+                    android:layout_width="100dp"
+                    android:src="@drawable/down_arrow" />
+                <TextView
+                    android:text="Southbound\n20min"
+                    android:textSize="17sp"
+                    android:textColor="@color/white"
+                    android:lineSpacingMultiplier="1.1"
+                    android:gravity="center"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:id="@+id/bottomRow"
+                android:layout_below="@id/upperRow"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:padding="9dp"
+                    android:layout_height="100dp"
+                    android:layout_width="100dp"
+                    android:src="@drawable/location" />
+                <TextView
+                    android:text="You are:\n10min\naway"
+                    android:textSize="17sp"
+                    android:textColor="@color/white"
+                    android:lineSpacingMultiplier="1.1"
+                    android:gravity="center"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp" />
+                <ImageView
+                    android:padding="10dp"
+                    android:layout_height="100dp"
+                    android:layout_width="100dp"
+                    android:src="@drawable/newspaper" />
+                <TextView
+                    android:text="WARNING:\nMorning Delays"
+                    android:textSize="17sp"
+                    android:textColor="@color/white"
+                    android:lineSpacingMultiplier="1.1"
+                    android:gravity="center"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
